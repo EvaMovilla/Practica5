@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCart - Carrito</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>TechCart</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="carrito.html">Carrito</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+    <h2>Carrito</h2>
+    <p>Estos son los productos que has añadido al carrito</p>
+    
+    <button onclick="crearCarrito()">Crear carrito</button>
+    <button onclick="cargarCarrito()">Cargar carrito</button>
+    <button onclick="borrarCarrito()">Borrar carrito</button>
+
+    <div id="tabla-carrito"></div>
+
+    <script src="script.js"></script>
+
+  </main>
+
+  <footer>
+    <p><a href="index.html">Volver a la página principal</a></p>
+  </footer>
+
+</body>
+</html>

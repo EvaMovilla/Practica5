@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCart - Contacto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>TechCart</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="carrito.html">Carrito</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+    <h2>Contacto</h2>
+    <p>Rellena tus datos para completar la compra:</p>
+
+    <form>
+
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+
+  <label for="telefono">Teléfono:</label>
+  <input type="tel" id="telefono" name="telefono" placeholder="600123123">
+
+  <label for="producto">Producto:</label>
+  <select id="producto" name="producto">
+    <option value="">-- Selecciona un producto --</option>
+    <option value="auriculares">Auriculares</option>
+    <option value="teclado">Teclado</option>
+    <option value="raton">Ratón</option>
+  </select>
+
+  <label for="mensaje">Mensaje:</label>
+  <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí..." required></textarea>
+
+  <button type="submit">Enviar</button>
+
+</form>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Volver a la página principal</a></p>
+  </footer>
+
+</body>
+</html>

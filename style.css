@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 1;
+}
+
+header{
+    background-color: rgb(139, 168, 177);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    backgroud-color: blue;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    color: gray;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+main{
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    background-color: rgb(194, 215, 222);
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a:hover{
+    color: blue;
+}
+
+
+img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+section{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,td{
+    border: 1px, solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(192, 222, 232);
+}
+
+form {
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: rgb(131, 153, 175)
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCart - Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>TechCart</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="carrito.html">Carrito</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+
+  <main>
+    <h2>Productos</h2>
+    <section>
+      <h3>Auriculares inalámbricos</h3>
+      <figure>
+        <img src="img/auriculares.png" alt="Auriculares">
+      <figcaption>Auriculares con sonido envolvente</figcaption>
+      <figcaption>59,99 €</figcaption>
+      </figure>
+      <label for="idCarrito">ID Carrito:</label>
+      <input type="number" id="idCarrito">
+    <button onclick="agregarProducto(productos.auriculares, 1)">
+      Añadir auriculares
+    </button>
+
+      <h3>Teclado mecánico</h3>
+      <figure>
+        <img src="img/teclado.png" alt="Teclado">
+        <figcaption>Teclado compacto, elegante y cómodo</figcaption>
+        <figcaption>79,99 €</figcaption>
+      </figure>
+      <label for="idCarrito">ID Carrito:</label>
+      <input type="number" id="idCarrito">
+      <button onclick="agregarProducto(productos.teclado, 1)">
+        Añadir teclado
+      </button>
+
+      <h3>Ratón ergonómico</h3>
+      <figure>
+        <img src="img/raton.png" alt="Ratón">
+        <figcaption>Ratón inalámbrico preciso</figcaption>
+        <figcaption>29,99 €</figcaption>
+      </figure>
+      <label for="idCarrito">ID Carrito:</label>
+      <input type="number" id="idCarrito">
+      <button onclick="agregarProducto(productos.raton, 1)">
+      Añadir ratón
+    </button>
+
+    <script src="script.js"></script>
+
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Volver a la página principal</a></p>
+  </footer>
+
+</body>
+</html>
